@@ -1,0 +1,33 @@
+1. Requisitos técnicos obrigatórios:
+  1. Criar uma API que integre no mínimo dois sistemas distintos
+  2. Implementar pelo menos dois endpoints funcionais
+  3. Utilizar pelo menos um protocolo de comunicação (REST, SOAP, MQTT,
+  etc.)
+  4. Incluir tratamento de erros e exceções
+  5. Incluir pelo menos um teste unitário para cada endpoint principal
+  6. Documentar todas as rotas da API de forma clara e padronizada
+
+2. Análise e Planejamento
+ Identificação do problema a ser resolvido
+ Levantamento dos requisitos funcionais e não-funcionais
+ Definição dos protocolos de integração a serem utilizados
+3. Design da API
+ Elaboração do diagrama de arquitetura
+ Definição dos endpoints e modelos de dados
+ Especificação dos protocolos de comunicação
+4. Implementação
+ Desenvolvimento da API
+ Implementação das integrações
+ Testes unitários (de dois endpoints, pelo menos)
+5. Documentação e Finalização
+ Elaboração da documentação técnica
+
+Arquivo README.md detalhado, contendo:
+o Objetivo do trabalho
+o Descrição funcional da solução
+o Arquitetura da API e o diagrama
+o Instruções detalhadas para execução via Postman/Insomnia
+o Documentação das rotas da API
+
+O projeto deve estar funcional no momento da avaliação, com instruções
+claras de como executá-lo
