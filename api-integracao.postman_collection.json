@@ -12,7 +12,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:3001/api"
+				"url": "{{baseURL}}/api"
 			},
 			"response": []
 		},
@@ -22,12 +22,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3001/api/reports?page=1&limit=10",
-					"protocol": "http",
+					"raw": "{{baseURL}}/api/reports?page=1&limit=10",
 					"host": [
-						"localhost"
+						"{{baseURL}}"
 					],
-					"port": "3001",
 					"path": [
 						"api",
 						"reports"
@@ -60,7 +58,7 @@
 						}
 					}
 				},
-				"url": "http://localhost:3001/api/reports"
+				"url": "{{baseURL}}/api/reports"
 			},
 			"response": []
 		},
@@ -70,12 +68,10 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3001/api/reports/:id",
-					"protocol": "http",
+					"raw": "{{baseURL}}/api/reports/:id",
 					"host": [
-						"localhost"
+						"{{baseURL}}"
 					],
-					"port": "3001",
 					"path": [
 						"api",
 						"reports",
@@ -112,6 +108,13 @@
 					""
 				]
 			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "",
+			"type": "default"
 		}
 	]
 }
