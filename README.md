@@ -2,7 +2,7 @@
 
 ## 1. Objetivo do Trabalho
 
-O **Sistema de Comunicação Comunitária** é uma API REST desenvolvida como projeto acadêmico que tem como objetivo criar uma **plataforma digital de comunicação comunitária**, permitindo que cidadãos de uma comunidade local possam:
+O **Sistema de Comunicação Comunitária** é uma API REST desenvolvida como projeto acadêmico que tem como objetivo criar uma **plataforma digital de comunicação comunitária**, permitindo que cidadãos da comunidade local possam:
 
 - 📝 **Reportar problemas da comunidade** (infraestrutura, segurança, meio ambiente)
 - 📢 **Compartilhar avisos importantes** (reuniões, eventos, alertas)
@@ -459,7 +459,40 @@ api-integracao/
 └── package.json              # Dependências e scripts
 ```
 
-## 11. Impacto Social
+## 11. Equipe de Desenvolvimento
+
+### 👥 Integrantes e Responsabilidades
+
+| Nome | Matrícula | Cargo/Responsabilidade |
+|------|-----------|------------------------|
+| **Edney Vasconcelos Freitas** | 2326253 | 💻 **Desenvolvimento** |
+| **Felipe Sousa da Silva** | 2323817 | 💻 **Criação de Testes** |
+| **Mary Ruth de Almeida Freitas Silva** | 2327185 | 🧪 **Criação de Documentação** |
+| **Mateus Bruno Trigueiro** | 2325500 | 🧪 **Desenvolvimento** |
+| **Raquel Gonçalves do Carmo Santana** | 2326635 | 📚 **Criação de Documentação** |
+| **Vitor Samuel da Silva Mendonça** | 2326326 | 📚 **Criação de Testes** |
+
+### 🎯 Distribuição de Responsabilidades
+
+**💻 Desenvolvimento (2 membros)**
+- Implementação da API REST e endpoints
+- Configuração do banco de dados MongoDB
+- Desenvolvimento dos controllers e middlewares
+- Estruturação da arquitetura do projeto
+
+**🧪 Criação de Testes (2 membros)**
+- Desenvolvimento de testes unitários com Jest
+- Criação de cenários de teste para todos os endpoints
+- Implementação de testes de validação e tratamento de erros
+- Configuração do ambiente de testes
+
+**📚 Criação de Documentação (2 membros)**
+- Elaboração do README completo
+- Documentação técnica da API
+- Guias de instalação e configuração
+- Exemplos de uso e casos de teste para Postman
+
+## 12. Impacto Social
 
 Esta API contribui para:
 - 🏘️ **Melhoria da Comunicação**: Canal direto entre cidadãos e comunidade
